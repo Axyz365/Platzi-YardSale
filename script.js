@@ -3,7 +3,7 @@ const desktopMenu = document.querySelector('.desktop-menu');
 const burgerMenu = document.querySelector('.burger-menu');
 const mobileMenu = document.querySelector('.mobile-menu');
 const cart = document.querySelector('.navbar-shopping-cart');
-const cartDetails = document.querySelector('.product-detail');
+const cartDetails = document.querySelector('#shoppingCartContainer');
 const cardsContainer = document.querySelector('.cards-container');
 
 cart.addEventListener('click', toogleCart);
