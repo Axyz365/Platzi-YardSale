@@ -1,15 +1,17 @@
+// Icons
 const arrowMenu = document.querySelector('.arrow-menu');
 const burgerMenu = document.querySelector('.burger-menu');
 const cart = document.querySelector('.navbar-shopping-cart');
 const productDetaileCloseIcon = document.querySelector('.product-detail-close');
 
-
+// Containers
 const desktopMenu = document.querySelector('.desktop-menu');
 const mobileMenu = document.querySelector('.mobile-menu');
 const cartDetails = document.querySelector('#shoppingCartContainer');
 const cardsContainer = document.querySelector('.cards-container');
 const productDetailContainer = document.querySelector('#product-detail');
 
+// Events
 cart.addEventListener('click', toogleCart);
 arrowMenu.addEventListener('click', toggleDesktopMenu);
 burgerMenu.addEventListener('click', toogleMobileMenu)
@@ -57,6 +59,7 @@ function closeProductDetailAside(){
     productDetailContainer.classList.add('inactive');
 }
 
+// Product list (hardcore array)
 const productList = [];
 productList.push({
     name: 'Bike',
